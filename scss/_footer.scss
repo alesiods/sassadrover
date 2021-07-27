@@ -1,0 +1,18 @@
+/* FOOTER */
+
+footer {
+    background-color: $color-principal;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9);
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+    p {
+        width: 500px;
+        margin-left: 20px;
+    }
+}

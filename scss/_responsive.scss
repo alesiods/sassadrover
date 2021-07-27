@@ -1,0 +1,20 @@
+/*Smartphone*/
+@media (max-width: 428px) {
+    .smartNo {
+        display: none;
+    }
+    .imagenInicio p {
+        font-size: 10px;
+        color: $color-principal;
+        text-transform: uppercase;
+    }
+   
+}
+
+/*Tablet*/
+@media (min-width: 429px) and (max-width:1023px) {
+    .tabletNo {
+        display: none;
+    }
+    
+}

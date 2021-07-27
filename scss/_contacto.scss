@@ -1,0 +1,33 @@
+/* CONTACTO */
+
+.contenedorContacto { background-image: url(../imgs/celular.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 125vh;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+    width: 35%;
+    height: 120vh;
+    border: solid;
+    border-radius: 10px;
+    background-color: #898989;
+    opacity: 0.8;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+    input {
+        padding: 15px;
+        border-radius: 10px;
+    }
+}
+

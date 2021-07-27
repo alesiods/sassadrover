@@ -1,0 +1,58 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+$color-principal: #E6621F;
+$ancho: 800px;
+
+body {
+    background-color: #EDEDEE;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* BLOQUES-CLASES GENERALES */
+
+.sinRaya {
+    text-decoration: none;
+}
+
+.centrarTexto {
+    text-align: center;
+}
+
+.margenArriba {
+	margin-top: 20px;
+}
+
+.margenAbajo {
+    margin-bottom: 20px;
+}
+
+.margenTodo {
+    margin: 20px;
+}
+
+.negrita {
+    font-weight: bold; 
+}
+
+.borderRedondos {
+	border: solid;
+    border-radius: 10px;
+}
+
+.paddingBottom {
+    padding-bottom: 20px;
+}
+
+
+/* BUCLE */
+
+@for $encabezado from 1 through 3 {
+    h#{$encabezado} {font-size: 40px / $encabezado;}
+}

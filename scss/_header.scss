@@ -1,0 +1,37 @@
+/* HEADER */
+
+header {
+    background-color: $color-principal; 
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    li {
+        padding: 10px;
+        margin-left: 10px;
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            color:#FFFFFF;
+            font-size: 17px;
+            text-transform: uppercase;
+            transition: all 0s;
+        }
+        a:hover {
+            font-size: 20px;
+        }
+    }
+}

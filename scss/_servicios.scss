@@ -1,0 +1,49 @@
+/* SERVICIOS */
+
+/*Primera Seccion */
+
+.tiposServicios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+
+.tiposServicios__tiposTamaños {
+    width: $ancho/3;
+    height: 350px;
+    text-align: center;
+}
+
+
+h3 {
+    margin-bottom: 20px;
+}
+
+/* Segunda Seccion */
+
+.packGrid {
+    background-image: url("../imgs/computadora-min.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    height: 60vh;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+article {
+    background-color:#EDEDEE ;
+    opacity: 0.8;
+    border: solid;
+    border-radius: 10px;
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
